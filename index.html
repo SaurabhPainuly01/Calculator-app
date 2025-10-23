@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" readOnly id="calculator-display" inputmode="decimal"/>
+        </div>
+
+
+        <div class="button-group" role="group" aria-label="Calculator buttons">
+            <button type="button" class="btn" id="clear-btn" data-action="clear"> AC </button>
+
+            <button type="button" class="btn" id="delete-btn" data-action="delete"> DE </button>
+
+            <button type="button" class="btn" id="percent-btn" data-action="%"> % </button>
+
+            <button type="button" class="btn" id="divide-btn" data-action="/"> / </button>
+
+
+            <button type="button" class="btn" id="btn-7" data-value="7"> 7 </button>
+            <button type="button" class="btn" id="btn-8" data-value="8"> 8 </button>
+            <button type="button" class="btn" id="btn-9" data-value="9"> 9 </button>
+            <button type="button" class="btn" id="multiply-btn" data-action="*"> * </button>
+
+            <button type="button" class="btn" id="btn-4" data-value="4"> 4 </button>
+            <button type="button" class="btn" id="btn-5" data-value="5"> 5 </button>
+            <button type="button" class="btn" id="btn-6" data-value="6"> 6 </button>
+            <button type="button" class="btn" id="subtract-btn" data-action="-"> - </button>
+
+            <button type="button" class="btn" id="btn-1" data-value="1"> 1 </button>
+            <button type="button" class="btn" id="btn-2" data-value="2"> 2 </button>
+            <button type="button" class="btn" id="btn-3" data-value="3"> 3 </button>
+            <button type="button" class="btn" id="add-btn" data-action="+"> + </button>
+
+            <button type="button" class="btn" id="btn-00" data-value="00"> 00 </button>
+            <button type="button" class="btn" id="btn-0" data-value="0"> 0 </button>
+            <button type="button" class="btn" id="decimal-btn" data-value="."> . </button>
+            <button type="button" class="btn" id="equals-btn" data-action="equals"> = </button>
+        </div>
+    </div>
+
+    <!-- <script src="app.js" defer></script> -->
+     <script src="app.js" charset="UTF-8"></script>
+</body>
+</html>
